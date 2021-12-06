@@ -1,5 +1,5 @@
 {
-  "name": "angular-schematics",
+  "name": "@janekkupke/angular-schematics",
   "version": "0.0.0",
   "description": "A blank schematics",
   "scripts": {
@@ -9,7 +9,7 @@
   "keywords": [
     "schematics"
   ],
-  "author": "",
+  "author": "Janek Kupke",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
@@ -21,5 +21,14 @@
     "@types/node": "^12.11.1",
     "@types/jasmine": "~3.10.0",
     "jasmine": "^3.5.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KupkeJanek/angular-schematics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KupkeJanek/angular-schematics/issues"
+  },
+  "homepage": "https://github.com/KupkeJanek/angular-schematics#readme"
 }
